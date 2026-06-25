@@ -1,0 +1,19 @@
+name: Hasta llegar el tempo del tu vida
+
+on:
+  workflow_dispatch:
+  push:
+
+permissions:
+  contents: write
+
+jobs: 
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fuck Microsoft
+        shell: fish
+        run: |
+          echo "Microsoft has been the single worst company around the world"
+          echo "So Microsoft, Fuck you!"
