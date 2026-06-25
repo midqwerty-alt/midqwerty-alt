@@ -10,10 +10,10 @@ permissions:
 jobs: 
   build:
     name: Build
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
     steps:
       - name: Fuck Microsoft
-        shell: fish
+        shell: zsh
         run: |
           echo "Microsoft has been the single worst company around the world"
           echo "So Microsoft, Fuck you!"
